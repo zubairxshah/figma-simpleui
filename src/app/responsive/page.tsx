@@ -1,13 +1,14 @@
-import HeroSection from "./components/HeroSection";
-import AchievementsSection from "./components/AchievementSection";
-import TeamSection from "./components/TeamSection";
-import Course from "./components/Course";
-import LogosSection from "./components/LogosSection";
-import ExploreCoursesSection from "./components/ExploreCoursesSection";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import Testimonial from "./components/Testimonials";
-import Footer from "./components/Footer";
+
+import HeroSection from "../components/HeroSection";
+import AchievementsSection from "../components/AchievementSection";
+import TeamSection from "../components/TeamSection";
+import Course from "../components/Course";
+import LogosSection from "../components/LogosSection";
+import ExploreCoursesSection from "../components/ExploreCoursesSection";
+import Header from "../components/Header";
+import NavBar from "../components/NavBar";
+import Testimonial from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
