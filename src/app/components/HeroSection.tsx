@@ -40,7 +40,7 @@ export default function HeroSection() {
 
       {/* Desktop/Laptop Image */}
       <div className="hidden md:block w-1/2 h-[800px]">
-        <img
+        <Image
           className="w-full h-full object-cover"
           src="/images/women-hero.png"
           alt="Hero section woman"

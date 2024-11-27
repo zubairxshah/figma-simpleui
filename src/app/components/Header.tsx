@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Header(){
     return(
         <div className="hidden md:w-[1280px] h-[54px] pl-[62px] pr-16 mb-6 bg-[#f6f6f6] shadow-inner 
@@ -19,7 +21,7 @@ export default function Header(){
                 <div className="w-6 h-6 p-[3px] justify-center items-center flex" />
                 <div className="w-6 h-6 px-[3px] pt-[4.50px] pb-[4.20px] justify-center items-center flex" />
                 <div className="w-6 h-6 p-[3px] justify-center items-center flex" />
-              <img src="/icons/Social-Links.png" />
+              <Image alt="" src="/icons/Social-Links.png" />
               </div>
             </div>
           </div>

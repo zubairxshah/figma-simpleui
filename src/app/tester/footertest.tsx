@@ -1,3 +1,4 @@
+import Image from "next/image";
 function FooterTest(){
     return(
         <div className="w-[1280px] h-[684px] p-20 bg-white flex-col 
@@ -45,7 +46,7 @@ function FooterTest(){
                 <div className="grow shrink basis-0 flex-col justify-start items-start inline-flex">
                   <div className="py-[29px] flex-col justify-center items-start gap-[10.50px] flex">
                     <div className="justify-center items-center gap-2 inline-flex">
-                      <div className="w-[32.58px] h-[30.38px] relative"><img src="/logos/Frame1.svg" /></div>
+                      <div className="w-[32.58px] h-[30.38px] relative"><Image alt="" src="/logos/Frame1.svg" /></div>
                       <div className="text-black text-[25.07px] font-bold font-['Inter']">
                         Ddsgnr
                       </div>
@@ -173,7 +174,7 @@ function FooterTest(){
                     <div className="w-6 h-6 p-[3px] justify-center items-center flex" />
                     <div className="w-6 h-6 px-[3px] pt-[4.50px] pb-[4.20px] justify-center items-center flex" />
                     <div className="w-6 h-6 p-[3px] justify-center items-center flex" />
-                <img src="/icons/Social-Links.png" />
+                <Image alt="" src="/icons/Social-Links.png" />
                   </div>
                 </div>
               </div>

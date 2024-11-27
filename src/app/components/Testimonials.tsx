@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonial(){
   return(
       <div className="w-[320px] md:w-[1280px] h-auto md:h-[830.89px] px-4 md:px-16 py-16 md:py-28 bg-[#f6f6f6] 
@@ -17,14 +19,15 @@ export default function Testimonial(){
               <div className="justify-start items-start gap-1 inline-flex" />
               <div className="self-stretch flex-col justify-start items-start gap-6 flex">
                 <div className="self-stretch text-black text-lg font-normal font-['Roboto'] leading-[27px]">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  &quote;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare."
+                  cursus, mi quis viverra ornare.&quote;
                 </div>
                 <div className="justify-start items-center gap-5 inline-flex">
-                  <img
+                  <Image
                     className="w-14 h-14 rounded-full"
                     src="/team/image3.svg"
+                    alt=""
                   />
                   <div className="flex-col justify-start items-start inline-flex">
                     <div className="text-black text-base font-semibold font-['Roboto'] leading-normal">
@@ -48,10 +51,10 @@ export default function Testimonial(){
               </div>
               <div className="flex gap-4">
                 <button className="w-12 h-12 p-3 rounded-full border border-black flex items-center justify-center">
-                  <img src="/team/arrowleft.svg" className="ml-2" alt="Previous" />
+                  <Image src="/team/arrowleft.svg" className="ml-2" alt="Previous" />
                 </button>
                 <button className="w-12 h-12 p-3 rounded-full border border-black flex items-center justify-center">
-                  <img src="/team/arrowright.svg" className="ml-2" alt="Next" />
+                  <Image src="/team/arrowright.svg" className="ml-2" alt="Next" />
                 </button>
               </div>
             </div>
@@ -64,14 +67,14 @@ export default function Testimonial(){
                 <div className="justify-start items-start gap-1 inline-flex" />
                 <div className="self-stretch h-[215px] flex-col justify-start items-start gap-6 flex">
                   <div className="self-stretch text-black text-lg font-normal font-['Roboto'] leading-[27px]">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  &quote;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare."
+                    cursus, mi quis viverra ornare.&quote;
                   </div>
                   <div className="justify-start items-center gap-5 inline-flex">
-                    <img
+                    <Image
                       className="w-14 h-14 rounded-full"
-                      src="/team/image3.svg"
+                      src="/team/image3.svg" alt=""
                     />
                     <div className="flex-col justify-start items-start inline-flex">
                       <div className="text-black text-base font-semibold font-['Roboto'] leading-normal">
@@ -88,12 +91,12 @@ export default function Testimonial(){
                 <div className="justify-start items-start gap-1 inline-flex" />
                 <div className="self-stretch h-[215px] flex-col justify-start items-start gap-6 flex">
                   <div className="self-stretch text-black text-lg font-normal font-['Roboto'] leading-[27px]">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  &quote;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare."
+                    cursus, mi quis viverra ornare.&quote;
                   </div>
                   <div className="justify-start items-center gap-5 inline-flex">
-                    <img
+                    <Image alt=""
                       className="w-14 h-14 rounded-full"
                       src="/team/image1.svg"
                     />
@@ -112,12 +115,12 @@ export default function Testimonial(){
                 <div className="justify-start items-start gap-1 inline-flex" />
                 <div className="self-stretch h-[215px] flex-col justify-start items-start gap-6 flex">
                   <div className="self-stretch text-black text-lg font-normal font-['Roboto'] leading-[27px]">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  &quote;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare."
+                    cursus, mi quis viverra ornare.&quote;
                   </div>
                   <div className="justify-start items-center gap-5 inline-flex">
-                    <img
+                    <Image alt=""
                       className="w-14 h-14 rounded-full"
                       src="/team/image6.svg"
                     />
@@ -144,10 +147,10 @@ export default function Testimonial(){
               </div>
               <div className="justify-start items-start gap-[15px] flex">
                 <button className="w-12 h-12 p-3 rounded-full border border-black flex items-center justify-center">
-                  <img src="/team/arrowleft.svg" className="" alt="Previous" />
+                  <Image src="/team/arrowleft.svg" className="" alt="Previous" />
                 </button>
                 <button className="w-12 h-12 p-3 rounded-full border border-black flex items-center justify-center">
-                  <img src="/team/arrowright.svg" className="" alt="Next" />
+                  <Image src="/team/arrowright.svg" className="" alt="Next" />
                 </button>
               </div>
             </div>

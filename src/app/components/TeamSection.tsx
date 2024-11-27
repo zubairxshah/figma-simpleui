@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TeamSection() {
   return (
     <div className="w-[320px] md:w-[1280px] px-4 md:px-16 py-12 md:py-28 bg-[#f6f6f6] 
@@ -16,7 +18,7 @@ export default function TeamSection() {
         {/* First Row - Always visible */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
           <div className="flex flex-col justify-start items-center gap-6">
-            <img
+            <Image alt=""
               className="w-20 h-20"
               src="/team/Image1.svg"
             />
@@ -37,7 +39,7 @@ export default function TeamSection() {
             </div>
           </div>
           <div className="flex flex-col justify-start items-center gap-6">
-            <img
+            <Image alt=""
               className="w-20 h-20"
               src="/team/Image2.svg"
             />
@@ -58,7 +60,7 @@ export default function TeamSection() {
             </div>
           </div>
           <div className="flex flex-col justify-start items-center gap-6">
-            <img
+            <Image alt=""
               className="w-20 h-20"
               src="/team/Image3.svg"
             />
@@ -83,7 +85,7 @@ export default function TeamSection() {
         {/* Second Row - Hidden on mobile */}
         <div className="hidden md:grid md:grid-cols-3 gap-16">
           <div className="flex flex-col justify-start items-center gap-6">
-            <img
+            <Image alt=""
               className="w-20 h-20"
               src="/team/Image4.svg"
             />
@@ -104,7 +106,7 @@ export default function TeamSection() {
             </div>
           </div>
           <div className="flex flex-col justify-start items-center gap-6">
-            <img
+            <Image alt=""
               className="w-20 h-20"
               src="/team/Image5.svg"
             />
@@ -125,7 +127,7 @@ export default function TeamSection() {
             </div>
           </div>
           <div className="flex flex-col justify-start items-center gap-6">
-            <img
+            <Image alt=""
               className="w-20 h-20"
               src="/team/Image6.svg"
             />

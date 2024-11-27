@@ -1,3 +1,4 @@
+import Image from "next/image";
 function ExploreCoursesSection(){
   return(
       <div className="w-full md:w-[1280px] min-h-[800px] px-4 md:px-16 py-12 md:py-28 
@@ -24,7 +25,7 @@ function ExploreCoursesSection(){
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
                               <div className="w-[25.95px] h-[16.23px] left-[3.03px] top-[2.67px] absolute">
-                                  <img src="/icons/pen-tool-2.svg" alt="Design icon" />
+                                  <Image src="/icons/pen-tool-2.svg" alt="Design icon" />
                               </div>
                           </div>
                       </div>
@@ -42,7 +43,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/volume-high.svg" alt="Marketing icon" />
+                              <Image src="/icons/volume-high.svg" alt="Marketing icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -59,7 +60,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/group.svg" alt="Development icon" />
+                              <Image src="/icons/group.svg" alt="Development icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -79,7 +80,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/microphone.svg" alt="Communication icon" />
+                              <Image src="/icons/microphone.svg" alt="Communication icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -96,7 +97,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/link.svg" alt="Digital Marketing icon" />
+                              <Image src="/icons/link.svg" alt="Digital Marketing icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -113,7 +114,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/arrow-2.svg" alt="Self Development icon" />
+                              <Image src="/icons/arrow-2.svg" alt="Self Development icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -130,7 +131,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/briefcase.svg" alt="Self Development icon" />
+                              <Image src="/icons/briefcase.svg" alt="Self Development icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -147,7 +148,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/book1.svg" alt="Self Development icon" />
+                              <Image src="/icons/book1.svg" alt="Self Development icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">
@@ -164,7 +165,7 @@ function ExploreCoursesSection(){
                   <div className="h-[132px] p-4 bg-[#f6f6f6] rounded-[5px] flex items-center gap-8">
                       <div className="p-[34px] bg-white rounded-[5px] flex">
                           <div className="w-8 h-8 relative">
-                              <img src="/icons/book2.svg" alt="Self Development icon" />
+                              <Image src="/icons/book2.svg" alt="Self Development icon" />
                           </div>
                       </div>
                       <div className="flex-1 flex flex-col gap-2">

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Footer() {
   return (
     <div
@@ -46,7 +48,7 @@ function Footer() {
             <div className="py-[29px] flex-col justify-center md:items-start items-center gap-[10.50px]">
               <div className="flex items-center justify-center gap-2">
                 <div className="w-[32.58px] h-[30.38px] md:relative md:justify-normal justify-center items-center md:items-start">
-                  <img src="/logos/Frame1.svg" />
+                  <Image src="/logos/Frame1.svg" alt="" />
                 </div>
                 <div className="text-black text-[25.07px] font-bold font-['Inter'] text-center md:text-justify">
                   Ddsgnr
@@ -152,7 +154,7 @@ function Footer() {
             <div className="w-6 h-6 p-[3px] justify-center items-center flex" />
             <div className="w-6 h-6 px-[3px] pt-[4.50px] pb-[4.20px] justify-center items-center flex" />
             <div className="w-6 h-6 p-[3px] justify-center items-center flex" /> */}
-            <img
+            <Image
               src="/icons/Social-Links.png"
               alt="Social Links"
               className="object-center"
